@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#01cf8e"/>
+      <stop offset="1" stop-color="#01cf8e" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="quick_transaction_icon" data-name="quick transaction icon" transform="translate(-1088 -804)">
+    <rect id="Retângulo_11" data-name="Retângulo 11" width="64" height="64" rx="8" transform="translate(1088 804)" opacity="0.2" fill="url(#linear-gradient)"/>
+    <g id="swap_horiz_black_24dp" transform="translate(1100 816)">
+      <path id="Caminho_4" data-name="Caminho 4" d="M0,0H40V40H0Z" fill="none"/>
+      <path id="Caminho_5" data-name="Caminho 5" d="M9.587,14.8,3,21.326l6.587,6.53v-4.9H21.158V19.693H9.587ZM32.714,11.53,26.127,5V9.9H14.555v3.265H26.127v4.9Z" transform="translate(2.143 3.572)" fill="#01cf8e"/>
+    </g>
+  </g>
+</svg>

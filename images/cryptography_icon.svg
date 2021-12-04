@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#01cf8e"/>
+      <stop offset="1" stop-color="#01cf8e" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="cryptography_icon" data-name="cryptography icon" transform="translate(-772 -804)">
+    <rect id="Retângulo_10" data-name="Retângulo 10" width="64" height="64" rx="8" transform="translate(772 804)" opacity="0.2" fill="url(#linear-gradient)"/>
+    <g id="linking_black_24dp" transform="translate(784.29 816)">
+      <g id="Grupo_3" data-name="Grupo 3" transform="translate(-0.29)">
+        <rect id="Retângulo_7" data-name="Retângulo 7" width="40" height="40" fill="none"/>
+      </g>
+      <g id="Grupo_4" data-name="Grupo 4" transform="translate(6.331 3.429)">
+        <path id="Caminho_3" data-name="Caminho 3" d="M17.715,2,4,6.993V17.129c0,8.405,5.846,16.245,13.715,18.159,7.869-1.914,13.715-9.753,13.715-18.159V6.993ZM28,17.129c0,6.658-4.372,12.816-10.286,14.7C11.8,29.945,7.429,23.8,7.429,17.129V9.307L17.715,5.562,28,9.307Z" transform="translate(-4 -2)" fill="#01cf8e"/>
+      </g>
+    </g>
+  </g>
+</svg>

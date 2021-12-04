@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#01cf8e"/>
+      <stop offset="1" stop-color="#01cf8e" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="lower_fees_icon" data-name="lower fees icon" transform="translate(-1396 -804)">
+    <rect id="Retângulo_12" data-name="Retângulo 12" width="64" height="64" rx="8" transform="translate(1396 804)" opacity="0.2" fill="url(#linear-gradient)"/>
+    <g id="attach_money_black_24dp" transform="translate(1408 816)">
+      <path id="Caminho_1" data-name="Caminho 1" d="M0,0H40V40H0Z" fill="none"/>
+      <path id="Caminho_2" data-name="Caminho 2" d="M15.715,16.041c-3.892-.974-5.143-1.981-5.143-3.549,0-1.8,1.732-3.054,4.629-3.054,3.052,0,4.183,1.4,4.286,3.467h3.789a6.649,6.649,0,0,0-5.5-6.289V3H12.629V6.566c-3.326.693-6,2.773-6,5.959,0,3.813,3.275,5.712,8.058,6.818,4.286.99,5.143,2.443,5.143,3.978,0,1.139-.84,2.955-4.629,2.955-3.532,0-4.92-1.519-5.109-3.467H6.32c.206,3.615,3.017,5.646,6.309,6.322v3.582h5.143V29.164c3.343-.611,6-2.476,6-5.86C23.773,18.616,19.607,17.015,15.715,16.041Z" transform="translate(3.991 2.143)" fill="#01cf8e"/>
+    </g>
+  </g>
+</svg>

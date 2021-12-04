@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    font-family: Metropolis;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Metropolis;
+    src: url(/font/metropolis.otf);
+}
+
+.background{
+    background-color: #222;
+}
+
+.logo{
+    cursor: pointer;
+    font-family: 'Metropolis', sans-serif;
+    color: #0AC18E;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #222222;
+}
+
+.links {
+    font-family: Metropolis;
+    color: #0AC18E;
+    text-decoration: none;
+    margin: auto;
+    list-style: none;
+    display: flex;
+}
+  
+.links li {
+    text-decoration: none;
+    color: #0AC18E;
+    padding: 0px 13.5px;
+}
+  
+.links li a {
+    text-decoration: none;
+    color: #0AC18E;
+    transition: color 0.3s ease 0s;
+}
+  
+.links li a:hover {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+.buttonGithub {
+    padding: 9px 25px;
+    background-color: #0AC18E;
+    text-decoration: none;
+    color: #222222;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+
+.buttonGithub:hover {
+    background-color: #099b72;
+}
+
+/* content */
+
+.titleSite{
+    font-family: Metropolis;
+    font-size: 64px;
+    color: #0AC18E;
+}
+
+.descriptionSite{
+    font-family: Metropolis;
+    font-size: 30px;
+    color: #0AC18E;
+    opacity: 80%;
+}
+
+.buttonContent{
+    border-radius: 6px;
+    padding: 25px 28px;
+    color: #222222;
+    background-color: #0AC18E;
+    margin: 0 auto 0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+
+.buttonContent:hover {
+    background-color: #059169;
+}
+
+/* Get Started */
+
+.getStarted{
+    width: 700px;
+    height: 300px;
+    background-color: #2b2b2b;
+    margin: 0 auto 0;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.titleGetStarted{
+    color: #0AC18E;
+    font-size: 48px;
+}
+
+.titleGetStartedContent{
+    color: #0AC18E;
+    font-size: 32px;
+    position: relative;
+    left: 90px;
+}
+
+.imageGetStartedContent{
+    width: 200px;
+    position: relative;
+    left: 480px;  
+    bottom: 30px;
+}
