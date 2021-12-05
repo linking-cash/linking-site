@@ -2,46 +2,57 @@
 <html>
     <head>
         <title>Linking</title>
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
-    <body class="background">
-        <header align="center" class="header">
+    <body>
+
+        <header class="header">
             <h1 class="logo">Ƚinking</h1>
             <ul class="links">
-                <li><a href="#">Crowdfunding</a></li>
-                <li><a href="">Why Linking?</a></li>
-                <li><a href="">Community</a></li>
+                <li><a href="#" class="link-item">Crowdfunding</a></li>
+                <li><a href="" class="link-item">Why Linking?</a></li>
+                <li><a href="" class="link-item">Community</a></li>
             </ul>
-            <a class="buttonGithub" href="github.com/linking-project/linking-site">Github</a>
+            <a class="btn btn-github" target="_blank" href="https://github.com/linking-cash/linking-site">Github</a>
         </header>
-        <div align="center" id="content">
-            <br><br>
-            <h1 align="center" class="titleSite">Explore Linking</h1>
-            <br>
-            <h2 align="center" class="descriptionSite">You control your money</h2>
-            <br><br><br>
-            <a href="" class="buttonContent">Explorer Linking</a>
+
+        <div id="content" class="content">
+            <h1 class="content__title">Explore Linking</h1>
+            <h2>You control your money</h2>
+            <button class="content__button btn">
+                <a href="">Explorer Linking</a>
+            </button>
         </div>
-        <br><br><br><br><br>
-        <div class="getStarted">
-            <br>
-            <h1 align="center" class="titleGetStarted">Get Started</h1>
-            <br>
-            <div id="chooseWallet">
-                <h1 class="titleGetStartedWalletContent">Choose your wallet</h1>
-                <img src="/images/quick_transaction.svg" class="imageGetStartedWalletContent">
-                <h2 class="textGetStartedWalletContent">To use Linking, the first thing you will need is to install a wallet, it can be in hardware, software or even paper, visit the website below to find out which one suits you best.</h2>
-                <a class="buttonGetStartedContentWallet" href="#">Wallets</a>
+
+        <div class="get-started">
+            <h1 class="get-started__title">Get Started</h1>
+            <div id="choose-wallet" class="choose-wallet">
+                <div class="choose-wallet__content">
+                    <h1>Choose your wallet</h1>
+                    <p >To use Linking, the first thing you will need is to install a wallet, it can be in hardware, software or even paper, visit the website below to find out which one suits you best.</p>
+                    <div class="btn-container">
+                        <button class="choose-wallet__btn btn">
+                            <a href="#">Wallets</a>
+                        </button>
+                    </div>
+                </div>
+                <img src="images/quick_transaction.svg" class="choose-wallet__img">
             </div>
-            <div id="currency">
-                <h1 class="titleGetStartedCurrencyContent">Use Linking as currency</h1>
-                <img src="/images/lower_fees_icon.svg" class="imageGetStartedCurrencyContent">
-                <h2 class="textGetStartedCurrencyContent">
-                    Linking is a currency and as every currency can be exchanged for goods, 
-                    at the link below we explain better how to use linking as currency for 
-                    your day to day.
-                </h2>            
-                <a class="buttonGetStartedContentCurrency" href="#">Linking Currency</a>
+            <div id="currency" class="currency">
+                <img src="images/lower_fees_icon.svg" class="currency__img">
+                <div class="currency__content">
+                    <h1>Use Linking as currency</h1>
+                    <p>
+                        Linking is a currency and as every currency can be exchanged for goods, 
+                        at the link below we explain better how to use linking as currency for 
+                        your day to day.
+                    </p>
+                    <div class="btn-container">
+                        <button class="choose-wallet__btn btn">
+                            <a href="#">Linking Currency</a>
+                        </button>
+                    </div>            
+                </div>
             </div>
         </div>
     </body>

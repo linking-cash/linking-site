@@ -1,23 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600;700;800;900&display=swap');
+
+/* ------------- Variáveis globais ----------- */
+:root {
+    --green-color: #0AC18E;
+    --deep-green-color: #059169;
+    --black-color: #222;
+    --black-hover-color: #4d4d4d;
+    --deep-black-color: #2b2b2b;
+}
+
+
+/* ------------- Configuraçoes gerais ----------- */
 * {
     box-sizing: border-box;
-    font-family: Metropolis;
     margin: 0;
     padding: 0;
 }
 
-@font-face {
-    font-family: Metropolis;
-    src: url(/font/metropolis.otf);
+body {
+    font-family: 'Titillium Web', sans-serif;
+    color: var(--green-color);
+    background-color: var(--black-color);
 }
 
-.background{
-    background-color: #222;
+.btn {
+    width: fit-content;
+    border: none;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    background-color: var(--green-color);
+    color: var(--black-color);
+    border-radius: 5px;
 }
+
+.btn:hover {
+    background-color: var(--black-hover-color);
+    color: var(--green-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-item {
+    color: var(--green-color);
+    transition: color 0.3s ease 0s;
+}
+/* ------------------------------------------ */
+
 
 .logo{
     cursor: pointer;
-    font-family: 'Metropolis', sans-serif;
-    color: #0AC18E;
 }
 
 .header{
@@ -25,184 +59,76 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
-    background-color: #222222;
 }
 
 .links {
-    font-family: Metropolis;
-    color: #0AC18E;
     text-decoration: none;
-    margin: auto;
     list-style: none;
     display: flex;
 }
   
 .links li {
     text-decoration: none;
-    color: #0AC18E;
     padding: 0px 13.5px;
 }
-  
-.links li a {
-    text-decoration: none;
-    color: #0AC18E;
-    transition: color 0.3s ease 0s;
-}
-  
-.links li a:hover {
-    text-decoration: none;
-    color: #4d4d4d;
+
+.btn-github {
+    padding: .5rem .75rem;
 }
 
-.buttonGithub {
-    padding: 9px 25px;
-    background-color: #0AC18E;
-    text-decoration: none;
-    color: #222222;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: background-color 0.3s ease 0s;
+.content {
+    width: 40%;
+    margin: 2.5rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .75rem;
 }
 
-.buttonGithub:hover {
-    background-color: #099b72;
+.content__title{
+    font-size: 3rem;
+    font-weight: 700;
 }
 
-/* content */
-
-.titleSite{
-    font-family: Metropolis;
-    font-size: 64px;
-    color: #0AC18E;
+.get-started {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+    margin: 5rem auto;
+    background-color: var(--deep-black-color);
+    padding: 2rem;
 }
 
-.descriptionSite{
-    font-family: Metropolis;
-    font-size: 30px;
-    color: #0AC18E;
-    opacity: 80%;
+.get-started__title {
+    text-align: center;
 }
 
-.buttonContent{
-    border-radius: 6px;
-    padding: 25px 28px;
-    color: #222222;
-    background-color: #0AC18E;
-    margin: 0 auto 0;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease 0s;
+.choose-wallet,
+.currency {
+    display: flex;
+    gap: 2.5rem;
+    margin: 1.5rem 0;
 }
 
-.buttonContent:hover {
-    background-color: #059169;
-}
-
-/* Get Started */
-
-.getStarted{
-    width: 700px;
-    height: 700px;
-    background-color: #2b2b2b;
-    margin: 0 auto 0;
-    border-radius: 6px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-}
-
-.titleGetStarted{
-    color: #0AC18E;
-    font-size: 48px;
-}
-
-.titleGetStartedWalletContent{
-    color: #0AC18E;
-    font-size: 32px;
-    position: relative;
-    top: 40px;
-    left: 90px;
-}
-
-.imageGetStartedWalletContent{
-    width: 200px;
-    position: relative;
-    left: 490px;
-    top: 7.5px;  
-    bottom: 30px;
-}
-
-.textGetStartedWalletContent{
-    color: #0AC18E;
-    opacity: 70%;
-    font-size: 18px;
-    width: 473px;
+.choose-wallet__content,
+.currency__content {
+    width: 75%;
     text-align: justify;
-    position: relative;
-    top: -150px;
-    left: 10px;
 }
 
-.buttonGetStartedContentWallet{
-    border-radius: 6px;
-    padding: 25px 28px;
-    color: #222222;
-    background-color: #0AC18E;
-    margin: 0 auto 0;
-    text-decoration: none;
-    cursor: pointer;
-    position: relative;
-    top: -110px;
-    left: 195px;
-    transition: background-color 0.3s ease 0s;
+.btn-container {
+    display: flex;
+    justify-content: center;
 }
 
-.buttonGetStartedContentWallet:hover {
-    background-color: #059169;
+.choose-wallet__btn {
+    padding: .75rem;
+    margin: 1rem auto;
 }
 
-/* Currency */
-
-.titleGetStartedCurrencyContent{
-    color: #0AC18E;
-    font-size: 32px;
-    position: relative;
-    top: -60px;
-    left: 264px;
-}
-
-.imageGetStartedCurrencyContent{
-    width: 200px;
-    position: relative;
-    left: 10px;
-    top: -90px;  
-    bottom: -10px;
-}
-
-.textGetStartedCurrencyContent{
-    color: #0AC18E;
-    opacity: 70%;
-    font-size: 18px;
-    width: 473px;
-    text-align: justify;
-    position: relative;
-    top: -255px;
-    left: 218px;
-}
-
-.buttonGetStartedContentCurrency{
-    border-radius: 6px;
-    padding: 25px 28px;
-    color: #222222;
-    background-color: #0AC18E;
-    margin: 0 auto 0;
-    text-decoration: none;
-    cursor: pointer;
-    position: relative;
-    top: -205px;
-    left: 360px;
-    transition: background-color 0.3s ease 0s;
-}
-
-.buttonGetStartedContentCurrency:hover {
-    background-color: #059169;
+.choose-wallet__img,
+.currency__img {
+    width: 220px;
 }
