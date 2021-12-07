@@ -93,6 +93,24 @@ a {
     font-weight: 700;
 }
 
+.content__describe{
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: 80%;
+}
+
+.content__button{
+    color: #2b2b2b;
+    font-family: 'Titillium Web', sans-serif;
+    transition: 0.7s;
+}
+
+.choose-wallet__btn{
+    color: #2b2b2b;
+    font-family: 'Titillium Web', sans-serif;
+    transition: 0.7s;
+}
+
 .get-started {
     display: flex;
     flex-direction: column;
