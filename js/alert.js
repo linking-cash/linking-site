@@ -7,4 +7,4 @@ function donateAdress() {
     alert(`BCH - ${bitcoincashAddress}`);
     alert(`XNO - ${nanoAddress}`);
     alert(`Thanks for the donation!`);
-} 
+}
