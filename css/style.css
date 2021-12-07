@@ -76,6 +76,7 @@ a {
 
 .btn-github {
     padding: .5rem .75rem;
+    transition: 0.7s;
 }
 
 .content {
@@ -119,6 +120,7 @@ a {
     margin: 5rem auto;
     background-color: var(--deep-black-color);
     padding: 2rem;
+    border-radius: 6px;
 }
 
 .get-started__title {
@@ -151,4 +153,72 @@ a {
 .choose-wallet__img,
 .currency__img {
     width: 220px;
+}
+
+/* Guides */
+
+.guides {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+    margin: 5rem auto;
+    background-color: var(--deep-black-color);
+    padding: 2rem;
+    border-radius: 6px;
+}
+
+.guides__titles {
+    text-align: center;
+}
+
+.guides__buttons{
+    background-color: #0AC18E;
+    text-decoration: none;
+    color: #2b2b2b;
+    font-family: 'Titillium Web', sans-serif;
+    transition: 0.7s;
+    margin: 0 15px;
+}
+
+.guides__subtitles{
+    text-align: justify;
+}
+
+/* Foundation */
+
+.foundation {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+    margin: 5rem auto;
+    background-color: var(--deep-black-color);
+    padding: 2rem;
+    border-radius: 6px;
+}
+
+.foundation__titles {
+    text-align: center;
+}
+
+.foundation__buttons{
+    background-color: #0AC18E;
+    text-decoration: none;
+    color: #2b2b2b;
+    font-family: 'Titillium Web', sans-serif;
+    transition: 0.7s;
+    margin: 0 15px;
+}
+
+.foundation__subtitles{
+    text-align: justify;
+}
+
+/* crowdfunding */
+
+.content__describe__crowdfunding{
+    font-size: 18px;
+    text-align: justify;
+    opacity: 80%;
 }
